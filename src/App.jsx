@@ -6,7 +6,8 @@ import Navbar from "./components/Navbar";
 
 export default function App() {
   return (
-    <Router>
+    
+    <Router basename="/labexam">
       <Navbar />
       <Routes>
         <Route path="/" element={<Login />} />
